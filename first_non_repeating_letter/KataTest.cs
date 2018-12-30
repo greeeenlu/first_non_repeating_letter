@@ -11,5 +11,10 @@ namespace first_non_repeating_letter
         {
             Assert.AreEqual("a",Kata.FirstNonRepeatingLetter("a"));
         }
+        [TestMethod]
+        public void stress_return_t()
+        {
+            Assert.AreEqual("t",Kata.FirstNonRepeatingLetter("stress"));
+        }
     }
 }
